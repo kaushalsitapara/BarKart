@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:id="@+id/butscan"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:text="Result"
+        android:textSize="20dp"
+        android:paddingBottom="00dp"
+        android:id="@+id/txt1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to Bill"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:id="@+id/regbut"
+        />
+
+    <Button
+        android:layout_margin="10px"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fetch Now"
+        android:textSize="16dp"
+        android:id="@+id/fetbut"
+        />
+    <TextView
+        android:paddingTop="10dp"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="data"
+        android:textSize="26dp"
+        android:id="@+id/txtfinal"/>
+
+    <TextView
+        android:textAlignment="center"
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="bill"
+        android:textSize="20dp"
+        android:id="@+id/txttotal"
+        android:paddingBottom="40dp"/>
+    <Button
+        android:layout_margin="10px"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pay Now"
+        android:textSize="16dp"
+        android:id="@+id/paybut"
+        />
+
+</LinearLayout>
